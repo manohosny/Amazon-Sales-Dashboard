@@ -1,0 +1,224 @@
+body {
+    font-family:  'Arial',sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    color: #232F3E;
+}
+
+#sidebar {
+    height: 160vh;
+    width: 100%;
+    background: #ffffff;
+    border-color: #ffffff;
+    margin-right: 2%;
+    color: #232F3E;
+}
+
+#content {
+    padding: 16px;
+    height: 160vh;
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #232F3E;
+}
+
+#navbar {
+    background: #FF9900;
+    width: 200vh;
+    position: fixed;
+    top: 0;
+}
+
+#navbarNav {
+    margin-left: 17%;
+}
+
+#bar-chart {
+    width: 100%;
+    height: 300px;
+}
+#bar-chart1 {
+    width: 100%;
+    height: 300px;
+}
+#bar-chart2 {
+    width: 100%;
+    height: 300px;
+}
+#bar-chart3 {
+    width: 100%;
+    height: 300px;
+}
+#bar-chart4 {
+    width: 100%;
+    height: 300px;
+}
+#sales {
+    width: 31.3%;
+    height: 100px;
+    display: inline-flex;
+    margin: 1vh;
+    padding: 2vh;
+    background-color: #FF9900;
+    align-items: center;
+    color: #ffffff;
+
+}
+#products {
+    width: 31.3%;
+    height: 100px;
+    display: inline-flex;
+    margin: 1vh;
+    padding: 2vh;
+    background-color: #FF9900;
+    align-items: center;
+    color: #ffffff;
+}
+#percent {
+    width: 31.3%;
+    height: 100px;
+    display: inline-flex;
+    margin: 1vh;
+    padding: 2vh;
+    background-color: #FF9900;
+    align-items: center;
+    color: #ffffff;
+}
+
+#bar {
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+}
+#bar1 {
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+}
+#bar2 {
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+}
+#bar3 {
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+}
+#bar4 {
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+}
+#pie-chart {
+    width: 90%;
+    height: 100%;
+    max-width: 100%;
+}
+#pie-chart1 {
+    width: 90%;
+    height: 100%;
+    max-width: 100%;
+}
+#pie-chart2 {
+    width: 90%;
+    height: 100%;
+    max-width: 100%;
+}
+#pie-chart3 {
+    width: 90%;
+    height: 100%;
+    max-width: 100%;
+}
+#pie-chart4 {
+    width: 90%;
+    height: 100%;
+    max-width: 100%;
+}
+#clusteredchartdiv {
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+    color: #232F3E;
+}
+
+#barchartdivparent {
+    width: 64.4%;
+    height: 400px;
+    display: inline-flex;
+    margin: 1vh;
+    padding: 2vh;
+    background-color: #ffffff;
+    color: #232F3E;
+}
+#clusturedchartdivparent {
+    width: 64.4%;
+    height: 400px;
+    display: inline-flex;
+    margin: 1vh;
+    padding: 2vh;
+    background-color: #ffffff;
+    color: #232F3E;
+}
+#pie {
+    width: 31.4%;
+    height: 400px;
+    margin: 1vh;
+    display: inline-flex;
+    padding: 2vh;
+    background-color: #ffffff;
+    align-items: center;
+    color: #232F3E;
+}
+.card-body {
+        width: 31.4%;
+        display: inline-flex;
+        flex-direction: column;
+        margin: 1vh;
+        padding: 2vh;
+        background-color: #ffffff;
+        color: #232F3E;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: 400px;
+    }
+
+    .card-body {
+        flex: 1;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .list-group {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .list-group-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .badge {
+        color: #ffffff;
+        background-color: #FF9900;
+    }
+
+#chartdivparent {
+    width: 45%;
+    height: 450px;
+    display: inline-block;
+    margin: 1vh;
+    padding: 2vh;
+    background-color: #ffffff;
+}
+li a:hover {
+  background-color: #FF9900;
+    color: #ffffff;
+}
